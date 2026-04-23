@@ -1,0 +1,21 @@
+{
+  "name": "QADEER-KING",
+  "description": "QADEER-KING WhatsApp bot made by QADEER-KING official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","QADEER-KING","QADEER-TechX"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the QADEER-KING session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
